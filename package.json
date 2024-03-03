@@ -1,10 +1,4 @@
-{
-  "scripts": {
-    "dev": "concurrently \"webpack --mode development --watch\" \"solid-start dev --host\" \"bare-server-node --host=localhost --port=8080\"",
-    "build": "webpack --mode production && solid-start build",
-    "start": "node scripts/server.js",
-    "stat": "webpack --profile",
-    "pretty": "prettier --write ."
+
   },
   "type": "module",
   "devDependencies": {
@@ -63,4 +57,4 @@
   "engines": {
     "node": ">=18.x"
   }
-}
+
